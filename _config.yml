@@ -1,18 +1,1 @@
-title: 我的 GitHub 網誌
-description: 歡迎來到我的寫作空間
-avatar: https://github.com/leekeywear.png # 自動抓取你的 GitHub 大頭貼
-
-# 關鍵：切換為 Chirpy 遠端主題
-remote_theme: cotes2020/jekyll-theme-chirpy
-
-# 網站語言與時區設定
-lang: zh-TW
-timezone: Asia/Taipei
-
-# 導覽列與功能設定
-plugins:
-  - jekyll-github-metadata
-  - jekyll-paginate
-  - jekyll-sitemap
-
-paginate: 10
+theme: jekyll-theme-chirpy
