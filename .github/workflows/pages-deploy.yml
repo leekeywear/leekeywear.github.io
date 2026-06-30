@@ -28,14 +28,10 @@ jobs:
         uses: actions/configure-pages@v4
 
       - name: Setup Ruby
-        uses: actions/setup-ruby@v1
+        uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.2'
-
-      - name: Install Dependencies
-        run: |
-          gem install jekyll-theme-chirpy
-          bundle install
+          bundler-cache: true # 這會自動根據你寫的 Gemfile 安裝環境
 
       - name: Build Site
         run: |

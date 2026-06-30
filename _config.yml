@@ -1,1 +1,4 @@
 theme: jekyll-theme-chirpy
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
